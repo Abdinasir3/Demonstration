@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section p{
+            background-color: red;
+        }
+        section > p{
+            background-color: green;
+        }
+        section h1 + p{
+            background-color: yellow;
+        }
+        section h1 ~ p{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>paragraph</p>
+        <h1>Heading</h1>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <div>
+         <p>nested paragraph</p>
+        </div>
+        <p>paragraph4</p>
+        <p>paragraph5</p>
+    </section>
+</body>
+</html>
